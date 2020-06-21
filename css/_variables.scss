@@ -1,0 +1,8 @@
+$contanier: 1175px;
+
+@mixin font-style ($color, $f-size, $f-weight, $line-h) {
+    font-size: $f-size;
+    line-height: $line-h;
+    font-weight: $f-weight;
+    color: $color;
+}
